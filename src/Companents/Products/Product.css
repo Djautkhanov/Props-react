@@ -1,0 +1,30 @@
+.card {
+  height: 360px;
+  width: 200px;
+  margin: 30px;
+  column-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.btn-prod {
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  border-radius: 5px;
+  border-color: white;
+  color: antiquewhite;
+  cursor: pointer;
+}
+img {
+  height: 220px;
+}
+.prod-name {
+  opacity: 0.5;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.price {
+  font-size: 22px;
+  font-family: cursive;
+}
